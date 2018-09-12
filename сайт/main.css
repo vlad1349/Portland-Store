@@ -1,0 +1,1193 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*reseter end*/
+
+body {
+	background-color: #e4e5e7;
+	height: 100%;
+}
+.container{
+
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.main{
+	flex: 1 0 auto;
+}
+.flexfooter{
+	flex: 0 0 auto;
+}
+.navBar{
+	background-color: #ffffff;
+	border-bottom: 1px solid #e4e9f7;
+	width: 100%;
+	height: 92px;
+	font-family: Montserrat Alternates Regular;
+	font-size: 14px;
+	font-weight: bolder;
+	display: inline-block;
+} 
+.navBar_item{
+	color: #333366;
+    font-size: 14px;
+	font-weight: bolder;
+	padding: 22px 13px;
+    text-decoration: none;
+    display: inline-block;
+}
+.navBar_item:hover{
+	color: #9EA3B0;
+}
+.navBar_item__icon{
+    height: 37px;
+    border-right: 1px solid #e4e9f7;
+    border-bottom: 1px solid #e4e9f7;
+    width: 12%;
+    text-align: right;
+	vertical-align: top;
+	padding-bottom: 33px;
+}
+.second_half{
+	text-align: center;
+	width: 61%;
+	vertical-align: top;
+	height: 70px;
+    padding-bottom: 1px;
+}
+.third_half{
+	text-align: center;
+	width: 21%;
+	vertical-align: top;
+	margin: -21px;
+
+}
+.oicon{
+	background-size: 47% 50%;
+    background-image: url(images/56763.png);
+    background-repeat: no-repeat;
+    background-position: left 2px;
+    padding-right: 40px;
+    padding-left: 26px;
+	margin-top: 12px;
+}
+.logo{
+	background-image: url(images/portland.PNG);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    padding: 20px 70px;
+    background-size: 100%;
+    float: left;
+    background-position: left 16px;
+    padding-bottom: 37px;
+        margin: -14px;
+}
+.navBar_item_text{
+	display: inline-block;
+	margin: -26px;
+}
+.navBar-bottom {
+	background-color: #ffffff;
+	font-size: 14px;
+    text-decoration: none;
+   	color: #333366;
+    width: 100%;
+	height: 57px;
+	font-family: Montserrat Alternates Regular;
+	display: inline-block;
+	text-transform: uppercase;
+
+}
+.price{
+	margin-right: 7px;
+	margin-left: 16px;
+}
+.keywords{
+	margin-left: 12px;
+	margin-right: 13px;
+}
+.navBar-bottom_item{
+	text-decoration: none;
+	color: #333366;
+	font-size: 11px;
+}
+.navBar-bottom_item:hover{
+	color: #9EA3B0;
+}
+.navBar-bottom-support{
+	vertical-align: middle;
+	text-align: right;
+	display: inline-block;
+}
+.navBar_item__cart{
+	background-image: url(images/Shopping-Cart-icon.png);
+    background-repeat: no-repeat;
+    vertical-align: top;
+	background-size: 110%;
+	padding: 14 13 14 16;
+	margin-top: 30px;
+ }
+
+.navBar_item__zero{
+	background-image: url(images/3-PNG-Image-77047.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	vertical-align: top;
+	padding: 12 12 15 13;
+	margin-bottom: 10px;
+	margin-top: 35px;
+}
+.navBar_item__sign{
+	border: 3px solid #f5dce9;
+	width: 28%;
+	height: 17%;
+	padding: 10px 10px 10px 10px;
+	border-radius: 20px;
+	margin-left: 25px;
+}
+.navBar_item__sign:hover{
+	color: #ff2bc3 !important;
+}
+
+.navBar_item__cap{
+	margin-top: 18px;
+}
+.cont{
+	width: 5%;
+}
+.second_half_bottom{
+	vertical-align: top;
+	padding: 4px 4px 0px 4px;
+	margin-left: 84px;
+}
+.navBar-bottom-support{
+	text-align: right;
+	width: 27%;
+	padding: 0px 33px 16px 0px;
+	padding: 24px 33px 16px 0px;
+}
+.navBar-bottom_looking{
+	border-right: 1px solid #e4e9f7;
+	border-left: 1px solid #e4e9f7;
+	padding-bottom: 20px;
+	width: 15%;
+	vertical-align: top;
+
+}
+.looking_icon{
+	background-image: url(images/49116.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	vertical-align: top;
+	width: 8%;
+	height: 16px;
+	display: inline-block;
+	margin-right: 13px;
+}
+.main_input{
+	display: inline-block;
+	width: 70%;
+	border: none;
+	color: #333366;
+	font-size: 13px;
+	font-family: Montserrat Alternates Regular;
+}
+.mainphoto{
+	vertical-align: top;
+	height: 520px;;
+	background-size: 100%;
+
+}
+#slider-wrapper {
+	width: 100%;
+	height: 470px;
+	position: relative;
+	margin-bottom: 0px;
+	background: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+}
+
+#s1 {
+	padding: 6px;
+	background: #000000;
+	position: absolute;
+	left: 50%;
+	bottom: 25px;
+	margin-left: -36px;
+	border-radius: 20px;
+	opacity: 0.3;
+	cursor: pointer;
+	z-index: 999;
+}
+
+#s2 {
+	padding: 6px;
+	background: #000000;
+	position: absolute;
+	left: 50%;
+	bottom: 25px;
+	margin-left: -12px;
+	border-radius: 20px;
+	opacity: 0.3;
+	cursor: pointer;
+	z-index: 999;
+}
+
+#s3 {
+	padding: 6px;
+	background: #000000;
+	position: absolute;
+	left: 50%;
+	bottom: 25px;
+	margin-left: 12px;
+	border-radius: 20px;
+	opacity: 0.3;
+	cursor: pointer;
+	z-index: 999;
+}
+
+#s4 {
+	padding: 6px;
+	background: #000000;
+	position: absolute;
+	left: 50%;
+	bottom: 25px;
+	margin-left: 36px;
+	border-radius: 20px;
+	opacity: 0.3;
+	cursor: pointer;
+	z-index: 999;
+}
+
+#s1:hover,
+#s2:hover,
+#s3:hover,
+#s4:hover {
+	opacity: .50;
+}
+
+.inner-wrapper {
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+
+.control {
+	display: none;
+}
+
+#Slide1:checked ~ .overflow-wrapper {
+	margin-left: 0%;
+}
+
+#Slide2:checked ~ .overflow-wrapper {
+	margin-left: -100%;
+}
+
+#Slide3:checked ~ .overflow-wrapper {
+	margin-left: -200%;
+}
+
+#Slide4:checked ~ .overflow-wrapper {
+	margin-left: -300%;
+}
+
+#Slide1:checked + #s1 {
+	opacity: 1;
+}
+
+#Slide2:checked + #s2 {
+	opacity: 1;
+}
+
+#Slide3:checked + #s3 {
+	opacity: 1;
+}
+
+#Slide4:checked + #s4 {
+	opacity: 1;
+}
+
+.overflow-wrapper {
+	width: 400%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow-y: hidden;
+	z-index: 1;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.slide img {
+	width: 25%;
+	float: left;
+}
+
+
+
+
+.navBarMenu{
+	background-color: #ffffff;
+	width: 88%;
+	font-family: Montserrat Alternates Regular;
+	font-size: 0;
+	display: block;
+	margin: 0 auto;
+	vertical-align: top;
+	border-radius: 5px;
+}
+.shipping{
+	padding: 22px 32px;
+}
+
+.content{
+	width: 88%;
+	margin: 20px auto;
+	font-size: 0;
+}
+.content_sideBar{
+    margin-top: 20px;
+	display: block;
+	vertical-align: top;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	position: relative;
+}
+.content_main {
+	vertical-align: top;
+	display: inline-block;
+    width: 80%;
+	box-sizing: border-box;
+	padding: 0 0 0 20px;
+	margin-top: 20px;
+}
+.sideBar_item {
+    display: block;
+	padding: 0px 0;
+    text-indent: 10px;
+	font-family: Montserrat Alternates Regular;
+	font-weight: bolder;
+    border-bottom: 1px solid #e4e5e7;
+    text-decoration: none;
+    color: #333366;
+    position: relative;
+	font-size: 11px;
+
+}
+.sideBar_item_b{
+	padding: 10px 0 10px 0;
+}
+.mainwrapper{
+	padding: 10px 0 10px 0;
+}
+.sub_sideBar{
+	display: block;
+	padding: 10px 0;
+	text-indent: 10px;
+	font-family: Montserrat Alternates Regular;
+	font-weight: bolder;
+	border-bottom: 1px solid #e4e5e7;
+	text-decoration: none;
+	color: #b7bac1;
+	background-color: #f0f2f7;
+	font-size: 11px;
+	text-transform: uppercase;
+
+
+}
+.sub_sideBar_a{
+	border-bottom: none;
+}
+.dropMenu{
+	display: none;
+	border-bottom: none;
+}
+.sideBar_item:after {
+	content: "";
+	position: absolute;
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-right: 2px solid #b8bfd3;
+	border-top: 2px solid #b8bfd3;
+	transform: rotate(50deg);
+	transition: all 1s ease;
+	right: 15px;
+	top: 10px;
+
+}
+.sideBar_item.opened:after{
+	transform: rotate(132deg);
+}
+
+
+.content_sideBar_a{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+.main_item {
+	background: #ffffff;
+	margin: 0 20px 20px;
+	vertical-align: top;
+	display: inline-block;
+	width: 28%;
+	height: 281px;
+	border-radius: 5px;
+}
+.navigation{
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+}
+.input:checked {
+	margin-left: 25px;
+	border: 1px solid blue;
+}
+
+.main_item_a{
+	background: #ffffff;
+	margin: 0 20px 20px;
+	vertical-align: top;
+	display: inline-block;
+	width: 60%;
+	height: 281px;
+	border-radius: 5px;
+}
+.half_menu{
+	display: inline-block;
+
+}
+.half_menu__first{
+	width: 20%;
+	border-right: 1px solid #e4e9f7;
+}
+.half_menu__second{
+	width: 60%;
+	border-right: 1px solid #e4e9f7;
+}
+.half_menu__third{
+	width: 19%;
+	font-size: 0px;
+	position: relative;
+}
+.counry_chosing_wrapper{
+	display: none;
+	width: 56%;
+	background-color: #ffffff;
+	position: absolute;
+	left: 109px;
+	font-family: Montserrat Alternates Regular;
+	color: #333366;
+	font-size: 11px;
+}
+.counry_chosing_item{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 13px 1px 2px 10px;
+}
+.country{
+	margin-left: 56px;
+	color: #333366;
+	font-weight: bolder;
+	padding: 22px 13px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 11px;
+
+}
+.styled {
+	border: 1px solid #e3e8f0;
+	width: 150px;
+	border-radius: 20px;
+	text-indent: 10px;
+	background-color: #e4e5e7;
+}
+.styledSecond{
+	border: 1px solid #e3e8f0;
+	width: 60px;
+	border-radius: 20px;
+	text-indent: 10px;
+	background-color: #e4e5e7;
+}
+
+
+/*****custom tick START******/
+.tickBox {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #00e2aa;
+	border-radius: 50%;
+	position: absolute;
+	margin: -4px 1px 6px 4px;
+}
+.tick {
+	display: inline-block;
+	width: 11px;
+	height: 5px;
+	border-left: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -5px 0 0 -6px;
+	transform: rotate(-50deg);
+	transition: all 2s ease;
+}
+
+/*****custom tick End******/
+.tickLast{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-left: 2px solid #b8bfd3;
+	border-bottom: 2px solid #b8bfd3;
+    transform: rotate(-50deg);
+	transition: all 1s ease;
+
+
+}
+.tickLast.openedLast{
+	transform: rotate(-131deg);
+}
+.tick-checkbox .tickBox{
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 100%;
+	border-radius: inherit;
+	margin: 0;
+	top:0;
+	left: 0;
+}
+.tick-checkbox{
+	display: inline-block;
+	position: relative;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #e4e8f0;
+	border-radius: 4px;
+}
+.tick-input{
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	z-index: 1;
+	margin: 0;
+	padding: 0 0 0 0;
+}
+.tick-input:checked + .tickBox{
+	display: inline-block;
+	z-index: 0;
+}
+/*custom checkbox end*/
+.sideBar_item_b:after{
+	display: none;
+
+}
+.sideBar_radio{
+
+}
+.sideBar_raw{
+    padding: 7px 6px;
+	display: block;
+}
+.see-all{
+	float: right;
+	text-decoration: underline;
+	color: #1616b2;
+	cursor: pointer;
+	margin-right: 15px;
+}
+.sideBar_brands{
+	display: block;
+	padding: 20px 10px ;
+	border: none;
+}
+.text_brands{
+	display: inline-block;
+	width: 67%;
+    font-size: 12px;
+    font-family: Montserrat Alternates Regular;
+    margin-left: 4px;
+	font-weight: bolder;
+	text-indent: 0;
+	vertical-align: top;
+}
+.number_products{
+	display: inline-block;
+	color: grey;
+}
+.sideBar_raw_first{
+	display: inline-block;
+	border-right: 1px solid #e4e5e7;
+    padding-top: 9px;
+    width: 42%;
+}
+.sideBar_raw_second{
+	display: inline-block;
+	width: 40%;
+}
+/*.one{
+	background-image: url(apple.jpg);
+	background-repeat: no-repeat;
+	background-size: 88%;
+}
+*/
+.productname{
+	display: block;
+	font-family: Montserrat Alternates Regular;
+	font-size: 16px;
+	text-align: center;
+	padding: 9px;
+	font-weight: bolder;
+	text-decoration: none;
+	color: #141515;
+
+}
+
+.productname_a{
+	text-align: left;
+	padding-left: 21px;
+	display: inline-block;
+	width: 89%;
+}
+.productcollor{
+	display: block;
+	font-family: Montserrat Alternates Regular;
+	font-size: 12px;
+	color: #9EA3B0;
+	text-align: center;
+}
+.productcollor_a{
+	text-align: left;
+	padding-left: 21px;
+	display: inline-block;
+	width: 87%;
+}
+.productprice{
+	display: block;
+	font-family: Montserrat Alternates Regular;
+	font-size: 14px;
+	text-align: center;
+	padding: 8px;
+	font-weight: bolder;
+}
+.product{
+	display: inline-block;
+	width: 70%;
+	height: 53%;
+	margin-left: 36px;
+	margin-top: 34px;
+	margin-bottom: 20px;
+
+}
+.mainproduct{
+	width: 100%;
+	height: 79%;
+}
+.buybord{
+	display: inline-block;
+	font-family: Montserrat Alternates Regular;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bolder;
+	width: 50%;
+	vertical-align: bottom;
+	border: 1px solid #e4e9f7;
+	border-radius: 33px;
+}
+.sgb{
+	display: inline-block;
+	width: 45%;
+	height: 33px;
+	border-right: 1px solid #e4e9f7;
+	text-decoration: none;
+	color: black ;
+
+}
+.buynow{
+	display:inline-block;
+	height: 33px;
+	width: 50%;
+	text-decoration: none;
+	color: black ;
+}
+.jblbox{
+	display: inline-block;
+	width: 44%;
+}
+.numberOfpage{
+	background-color: #ffffff;
+	font-size: 14px;
+	width: 88%;
+	height: 57px;
+	font-family: Montserrat Alternates Regular;
+	display: inline-block;
+	margin-top: 47px;
+	margin-left: 81px;
+	margin-right: 81px;
+	vertical-align: top;
+	border-radius: 5px;
+}
+.first_half_number{
+	display: inline-block;
+	border-radius: 5px;
+	width: 15%;
+	margin: 0 auto;
+    position: relative;
+}
+.second_half_number{
+	display: inline-block;
+	width: 69%;
+	margin: 0 auto;
+	border-left: 1px solid #e4e9f7;
+	border-right: 1px solid #e4e9f7;
+	border-radius: 0px;
+}
+.third_half_number{
+	display: inline-block;
+	width: 15%;
+	border-radius: 5px;
+	margin: 0 auto;
+    position: relative;
+}
+.page{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.number{
+	display: inline-block;
+	text-align: center;
+	margin: 21px 21px 5px 21px;
+	font-family: Montserrat Alternates Regular;
+	font-size: 14px;
+	text-decoration: none;
+}
+.first_half_number:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-right: 1px solid #141515;
+    border-bottom: 1px solid #2f3030;
+    transform: rotate(134deg);
+    top: 50%;
+    right: 50%;
+    margin: -6px -6px 0px 0px;
+}
+
+.third_half_number:after {
+	content: "";
+	position: absolute;
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	border-right: 1px solid #141515;
+	border-bottom: 1px solid #2f3030;
+	transform: rotate(-41deg);
+    top: 50%;
+    right: 50%;
+    margin: -6px -6px 0px 0px;
+}
+.delivery{
+    display: block;
+    margin-top: 18px;
+    border-radius: 5px;
+    padding: 7px 10px;
+    background-color: white;
+
+}
+.number{
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.number:hover{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	box-shadow: 10px 15px 7px #C7C7C7;
+}
+.bestsellers {
+	background-color: #ffffff;
+	font-size: 14px;
+	width: 88%;
+	height: 358px;
+	display: inline-block;
+	margin-top: 47px;
+	margin-left: 81px;
+	margin-right: 81px;
+	vertical-align: top;
+	border-radius: 5px;
+	font-family: Montserrat Alternates Regular;
+	text-align: center;
+}
+.content_sideBar_b{
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 10px 0;
+	text-indent: 10px;
+	font-weight: bolder;
+}
+.headline{
+	display: inline-block;
+	font-family: Montserrat Alternates Regular;
+	text-align: center;
+	width: 100%;
+	height: 21%;
+	border-bottom: 1px solid #e4e9f7;
+	vertical-align: top;
+	margin-top: 2px;
+
+}
+.tit{
+	display: inline-block;
+	font-family: Montserrat Alternates Regular;
+	font-size: 11px;
+	margin-top: 24px;
+	font-weight: bolder;
+
+}
+.clothesItem{
+	width: 100%;
+	vertical-align: top;
+	display: inline-block;
+	height: 281px;
+}
+.firstClose{
+	display: inline-block;
+	border-right:1px solid #e4e9f7;
+	width: 24%;
+	height: 100%;
+	vertical-align: top;
+
+}
+.secondClose{
+	display: inline-block;
+	border-right: 1px solid #e4e9f7;
+	width: 25%;
+	height: 100%;
+	vertical-align: top;
+	color: #141515;
+}
+.thirdClose{
+	display: inline-block;
+	border-right: 1px solid #e4e9f7;
+	width: 24%;
+	height: 100%;
+	color: #141515;
+
+}
+.fourthClose{
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	vertical-align: top;
+}
+.oldprice{
+	text-decoration:line-through;
+	display: inline-block;
+	font-family: Montserrat Alternates Regular;
+	font-size: 14px;
+	text-align: center;
+	padding: 8px;
+	font-weight: bolder;
+	color: #9EA3B0;
+}
+.currentprice{
+	display: inline-block;
+	font-family: Montserrat Alternates Regular;
+	font-weight: bolder;
+	font-size: 14px;
+	text-align: center;
+	padding: 8px;
+	font-weight: bolder;
+}
+.productprice_b{
+	padding: 2px;
+}
+.product_a{
+	display: inline-block;
+	width: 54%;
+	height: 54%;
+	margin-left: 14px;
+	margin-top: 34px;
+	margin-bottom: 20px;
+}
+.feedback{
+	margin-top: 45px;
+	width: 1348px;
+    height: 315px;
+    background-color: white;
+    display: inline-block;
+	text-align: center;
+}
+.title{
+	font-family:  Montserrat Alternates Black;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 64px;
+	font-weight: bold;
+}
+.subtitle{
+	display: inline-block;
+	font-family: Crimson Text Italic;
+	font-size: 16px;
+	color: #9EA3B0;
+	font-style: italic;
+	margin-top: 15px;
+}
+.feedcolums{
+	display: inline-block;
+	width: 100%;
+	height: 54%;
+	margin-top: 17px;
+}
+.first_feed{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	font-family: Crimson Text Regular;
+	font-size: 16px;
+	font-style: italic;
+	vertical-align: top;
+}
+.second_feed{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	font-family: Crimson Text Italic Regular;
+	font-size: 16px;
+	font-style: italic;
+	vertical-align: top;
+}
+.third_feed{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	font-family: Crimson Text Italic Regular;
+	font-size: 16px;
+	font-style: italic;
+}
+.userFeed{
+	display: inline-block;
+	width: 100%;
+	height: 30%;
+}
+.userOne{
+	border-radius: 50%;
+	display: inline-block;
+	background-color: #9EA3B0;
+	width: 8%;
+	height: 32px;
+
+}
+.userTwo{
+	border-radius: 50%;
+	display: inline-block;
+	background-color: bisque;
+	width: 8%;
+	height: 32px;
+}
+.userThree{
+	border-radius: 50%;
+	display: inline-block;
+	background-color: #00e2aa;
+	width: 8%;
+	height: 32px;
+}
+.userName{
+	font-family: Montserrat Alternates Regular;
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	font-style: normal;
+	margin: 0 auto;
+
+}
+.occupation{
+	font-family: Montserrat Alternates Regular;
+	font-size: 16px;
+	display: block;
+	color: #9EA3B0;
+	width: 100%;
+	margin-top: 5px;
+}
+.userinformation{
+	display: inline-block;
+	width: 40%;
+}
+.feed{
+	display: block;
+	width: 60%;
+	height: 130px;
+	font-family: Crimson Text Italic Regular;
+	font-size: 16px;
+	margin-left: 50px;
+	text-align: left;
+	font-style: normal;
+	margin-left: 100px;
+}
+.footer{
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+	background-color: #222328;
+	text-align: center;
+}
+.firstfoot{
+	display: inline-block;
+	width: 80%;
+	height: 50%;
+	border-bottom: 1px solid #2d2e33;
+}
+.logoFoot{
+	width: 10%;
+	height: 60%;
+	display: inline-block;
+	margin-top: 30px;
+	vertical-align: top;
+
+}
+.addInform{
+	display: inline-block;
+	width: 60%;
+	font-family: Montserrat Alternates Regular;
+	font-weight: bolder;
+	font-size: 16px;
+	margin-top: 81px;
+
+}
+.item{
+	width: 12%;
+	display: inline-block;
+	font-family: Montserrat Alternates Regular;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+
+}
+
+.socialmedia{
+	display: inline-block;
+	width: 28%;
+	margin-top: 66px;
+	vertical-align: top;
+
+}
+.p{
+	display: inline-block;
+	width: 10%;
+	height: 30%;
+	margin-right: 10px;
+}
+.facebookLogo{
+	display: inline-block;
+	width: 10%;
+	height: 30%;
+	margin-right: 10px;
+}
+.instaLogo{
+	display: inline-block;
+	width: 14%;
+	height: 30%;
+	margin-right: 10px;
+}
+.googleLogo{
+	display: inline-block;
+	width: 12%;
+	height: 30%;
+	margin-right: 10px;
+}
+.secondfoot{
+	display: inline-block;
+	width: 80%;
+	height: 50%;
+}
+.legend{
+	display: inline-block;
+	width: 40%;
+	text-align: left;
+	margin-right: 94px;
+	color: #9EA3B0;
+	font-style: italic;
+	margin-top: 60px;
+}
+.privacy{
+	display: inline-block;
+	width: 49%;
+	height: 48%;
+	vertical-align: top;
+	margin-top: 68px;
+}
+.privButt{
+	display: inline-block;
+	width: 33%;
+	height: 36%;
+	color: #9EA3B0;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+}

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+
+    </script>
+    <script src="MainJS.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="main">
+<div>
+    <header>
+        <nav class="navBar container">
+            <div class="navBar_item__icon navBar_item">
+                <div class="oicon navBar_item"></div>
+            </div>
+            <div class="second_half navBar_item">
+                <div class="logo navBar_item"></div>
+                <div class="navBar_item_text navBar_item">
+                    <a class="navBar_item" href="#">Home</a>
+                    <a class="navBar_item" href="#">Devices</a>
+                    <a class="navBar_item" href="#">Delivery</a>
+                    <a class="navBar_item" href="#">Guarantee</a>
+                    <a class="navBar_item" href="#">About as</a>
+                </div>
+            </div>
+            <div class="third_half navBar_item">
+                <div class="navBar_item__cart navBar_item" href="#"></div>
+                <div class="navBar_item__cap navBar_item" href="#">cart</div>
+                <div class="navBar_item__zero navBar_item" href="#"></div>
+                <div class="navBar_item__sign navBar_item" href="#">Sign in</div>
+            </div>
+        </nav>
+        <nav class="navBar-bottom">
+            <div class="second_half_bottom navBar_item">
+                <a class="navBar-bottom_item navBar_item" href="#">top sales</a>
+                <a class="navBar-bottom_item navBar_item" href="#">brand focus</a>
+                <a class="navBar-bottom_item navBar_item" href="#">hi-tech</a>
+                <a class="navBar-bottom_item navBar_item" href="#">best sellers</a>
+                <a class="navBar-bottom_item navBar_item" href="#">progects</a>
+            </div>
+            <div class="navBar-bottom-support navBar_item">
+                <a class="navBar-bottom_item" href="#">support</a>
+            </div>
+            <div class="navBar-bottom_looking navBar_item">
+                <div class="looking_icon"></div>
+                <input class="main_input" type="search" name="q" placeholder="I`m looking for ...">
+            </div>
+        </nav>
+    </header>
+    <div class="mainphoto">
+        <div id="slider-wrapper">
+            <div class="inner-wrapper">
+                <input checked type="radio" name="slide" class="control" id="Slide1" />
+                <label for="Slide1" id="s1"></label>
+                <input type="radio" name="slide" class="control" id="Slide2" />
+                <label for="Slide2" id="s2"></label>
+                <input type="radio" name="slide" class="control" id="Slide3" />
+                <label for="Slide3" id="s3"></label>
+                <input type="radio" name="slide" class="control" id="Slide4" />
+                <label for="Slide4" id="s4"></label>
+                <div class="overflow-wrapper">
+                    <a class="slide" href=""><img src="images/iphone8-IL-3.jpg" /></a>
+                    <a class="slide" href=""><img src="images/maxresdefault%20(1).jpg" /></a>
+                    <a class="slide" href=""><img src="images/1488118467_screen_shot_2017-02-26_at_6.13.49_am.jpg" /></a>
+                    <a class="slide" href=""><img src="images/maxresdefault2.jpg" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navBarMenu">
+        <div class="half_menu half_menu__first">
+            <a class="navBar-bottom_item navBar_item" href="#">SORT BY:</a>
+            <a class="navBar-bottom_item navBar_item" href="#">BEST MATCH</a>
+            <div class=""></div>
+        </div>
+        <div class="half_menu half_menu__second">
+            <a class="navBar-bottom_item navBar_item keywords" href="#">KEYWORDS</a>
+            <input tabindex="-1" class="styled" type="search" name="q" placeholder="Tablet">
+            <a class="navBar-bottom_item navBar_item price" href="#">PRICE</a>
+            <input tabindex="-1" class="styledSecond" type="search" name="q" placeholder="10">
+            <a class="navBar-bottom_item navBar_item">-</a>
+            <input tabindex="-1" class="styledSecond" type="search" name="q" placeholder="10">
+            <div class="shipping navBar_item">
+        <span class="tickBox">
+            <span class="tick"></span>
+        </span>
+                <a class="navBar-bottom_item navBar-bottom_item" href="#" style="
+        margin-left: 47px;
+        ">Free Shipping</a>
+            </div>
+        </div>
+
+
+        <div class="half_menu half_menu__third">
+            <div class="navBar-bottom_item navBar_item">SHIP TO:</div>
+            <div class="country">USA</div>
+            <span class="tickLast"></span>
+            <div class="counry_chosing_wrapper">
+                    <a class="counry_chosing_item" href="#">Gabon</a>
+                    <a class="counry_chosing_item" href="#">Ghana</a>
+                    <a class="counry_chosing_item" href="#">Egypt</a>
+                    <a class="counry_chosing_item" href="#">Nigeria</a>
+                    <a class="counry_chosing_item" href="#">Namibia</a>
+                    <a class="counry_chosing_item" href="#">South Africa</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="content">
+        <div class="navigation">
+            <div class="content_sideBar">
+                    <div class="sideBar_item">
+                        <div class="mainwrapper">Top sales</div>
+                        <div class="dropMenu">
+                            <a class="sub_sideBar" href="#">Poduct1</a>
+                            <a class="sub_sideBar" href="#">Poduct2</a>
+                            <a class="sub_sideBar" href="#">Poduct3</a>
+                            <a class="sub_sideBar" href="#">Poduct4</a>
+                            <a class="sub_sideBar sub_sideBar_a" href="#">Poduct5</a>
+                        </div>
+                    </div>
+                <div class="sideBar_item">
+                    <div class="mainwrapper">Brand focus</div>
+                    <div class="dropMenu">
+                        <div class="sub_sideBar">Poduct1</div>
+                        <div class="sub_sideBar">Poduct2</div>
+                        <div class="sub_sideBar">Poduct3</div>
+                        <div class="sub_sideBar">Poduct4</div>
+                        <div class="sub_sideBar sub_sideBar_a">Poduct5</div>
+                    </div>
+                </div>
+                <div class="sideBar_item dropDown">
+                    <div class="mainwrapper">Hi-Tech</div>
+                <div class="dropMenu">
+                    <div class="sub_sideBar">Poduct1</div>
+                    <div class="sub_sideBar">Poduct2</div>
+                    <div class="sub_sideBar">Poduct3</div>
+                    <div class="sub_sideBar">Poduct4</div>
+                    <div class="sub_sideBar sub_sideBar_a">Poduct5</div>
+                </div>
+            </div>
+                <div class="sideBar_item">
+                    <div class="mainwrapper">Home</div>
+                    <div class="dropMenu">
+                        <div class="sub_sideBar">Poduct1</div>
+                        <div class="sub_sideBar">Poduct2</div>
+                        <div class="sub_sideBar">Poduct3</div>
+                        <div class="sub_sideBar">Poduct4</div>
+                        <div class="sub_sideBar sub_sideBar_a">Poduct5</div>
+                    </div>
+                </div>
+                <div class="sideBar_item">
+                    <div class="mainwrapper">Sale</div>
+                    <div class="dropMenu">
+                        <div class="sub_sideBar">Poduct1</div>
+                        <div class="sub_sideBar">Poduct2</div>
+                        <div class="sub_sideBar">Poduct3</div>
+                        <div class="sub_sideBar">Poduct4</div>
+                        <div class="sub_sideBar sub_sideBar_a">Poduct5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_sideBar">
+                <a class="sideBar_item sideBar_item_b" href="#">AVILABLE</a>
+                <div class="sideBar_item sideBar_item_b sideBar_radio">
+                    <label class="sideBar_raw">
+                        <input type="radio">In Storage
+                    </label>
+                    <label class="sideBar_raw">
+                        <!--lable for-->
+                        <input type="radio">In Online Shop
+                    </label>
+                </div>
+
+                <div class="sideBar_item sideBar_item_b">BRANDS
+                    <a class="see-all">ALL</a>
+                </div>
+                <div class="sideBar_item sideBar_item_b sideBar_brands">
+                    <div class="sideBar_raw">
+                        <!--lable for-->
+                        <div class="tick-checkbox">
+                            <input type="checkbox" class="tick-input">
+                            <span class="tickBox">
+                                <span class="tick"></span>
+                            </span>
+                        </div>
+                        <div class="text_brands">Apple
+                        </div>
+                        <div class="number_products">32
+                        </div>
+                    </div>
+                    <div class="sideBar_raw">
+                        <!--lable for-->
+                        <div class="tick-checkbox">
+                            <input type="checkbox" class="tick-input">
+                            <span class="tickBox">
+                            <span class="tick"></span>
+                        </span>
+                        </div>
+                        <div class="text_brands">JBL
+                        </div>
+                        <div class="number_products">14
+                        </div>
+                    </div>
+                    <div class="sideBar_raw">
+                        <!--lable for-->
+                        <div class="tick-checkbox">
+                            <input type="checkbox" class="tick-input">
+                            <span class="tickBox">
+                            <span class="tick"></span>
+                        </span>
+                        </div>
+                        <div class="text_brands">Bose
+                        </div>
+                        <div class="number_products">3
+                        </div>
+                    </div>
+                    <div class="sideBar_raw">
+                        <!--lable for-->
+                        <div class="tick-checkbox">
+                            <input type="checkbox" class="tick-input">
+                            <span class="tickBox">
+                            <span class="tick"></span>
+                        </span>
+                        </div>
+                        <div class="text_brands">Nest
+                        </div>
+                        <div class="number_products">5
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_sideBar_b sideBar_item_condition">
+                <div class="sideBar_item sideBar_item_b">CONDITION
+                    <a class="see-all">SEE ALL</a>
+                </div>
+                <div class="sideBar_raw">
+                    <!--lable for-->
+                    <div class="tick-checkbox">
+                        <input type="checkbox" class="tick-input">
+                        <span class="tickBox">
+                            <span class="tick"></span>
+                        </span>
+                    </div>
+                    <div class="text_brands">New
+                    </div>
+                </div>
+                <div class="sideBar_raw">
+                    <!--lable for-->
+                    <div class="tick-checkbox">
+                        <input type="checkbox" class="tick-input">
+                        <span class="tickBox">
+                            <span class="tick"></span>
+                        </span>
+                    </div>
+                    <div class="text_brands">Manufacturer Refurbished
+                    </div>
+                </div>
+                <div class="sideBar_raw">
+                    <!--lable for-->
+                    <div class="tick-checkbox">
+                        <input type="checkbox" class="tick-input">
+                        <span class="tickBox">
+                            <span class="tick"></span>
+                        </span>
+                    </div>
+                    <div class="text_brands">Seller Refurbished
+                    </div>
+                </div>
+                <div class="sideBar_raw">
+                    <!--lable for-->
+                    <div class="tick-checkbox">
+                        <input type="checkbox" class="tick-input">
+                        <span class="tickBox">
+                            <span class="tick"></span>
+                        </span>
+                    </div>
+                    <div class="text_brands">Used
+                    </div>
+                </div>
+                <div class="sideBar_raw">
+                    <!--lable for-->
+                    <div class="tick-checkbox">
+                        <input type="checkbox" class="tick-input">
+                        <span class="tickBox">
+                            <span class="tick"></span>
+                        </span>
+                    </div>
+                    <div class="text_brands">For parts or not working
+                    </div>
+                </div>
+            </div>
+                <div class="delivery sideBar_item_b">
+                    <div class="sideBar_item sideBar_item_b">DELIVERY OPTIONS</div>
+                    <div class="sideBar_raw sideBar_raw_first">
+                        <!--lable for-->
+                        <div class="tick-checkbox">
+                            <input type="checkbox" class="tick-input">
+                            <span class="tickBox">
+                            <span class="tick"></span>
+                        </span>
+                        </div>
+                        <div class="text_brands">FREE
+                        </div>
+                    </div>
+                    <div class="sideBar_raw sideBar_raw_second">
+                        <!--lable for-->
+                        <div class="tick-checkbox">
+                            <input type="checkbox" class="tick-input">
+                            <span class="tickBox">
+                            <span class="tick"></span>
+                        </span>
+                        </div>
+                        <div class="text_brands">$4.99
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+        </div>
+
+        <div class="content_main">
+
+            <div class="main_item">
+                <a href="#"><img class="product" src="images/apple.jpg"></a>
+                <h1><a class="productname" href="#">Apple TV 32 GB</a></h1>
+                <h2 class="productcollor">GRAY</h2>
+                <h3 class="productprice">49.99</h3>
+            </div>
+            <div class="main_item">
+                <a href="#"><img class="product" src="images/pt_red.png"></a>
+                <h1><a class="productname" href="#">Pebble Time</a></h1>
+                <h2 class="productcollor">RED</h2>
+                <h3 class="productprice">29.99</h3>
+            </div>
+            <div class="main_item">
+                <a href="#"><img class="product" src="images/usb.jpg"></a>
+                <h1><a class="productname" href="#">Zendure 4-port Usb</a></h1>
+                <h2 class="productcollor">WHITE</h2>
+                <h3 class="productprice">49.99</h3>
+            </div>
+            <div class="main_item">
+                <a href="#"><img class="product" src="images/Withings-Smart-Body-Analyzer-WS-50.jpg"></a>
+                <h1><a class="productname" href="#">Withings Analyzer WS-50</a></h1>
+                <h2 class="productcollor">BlACK</h2>
+                <h3 class="productprice">39.99</h3>
+            </div>
+            <div class="main_item_a">
+                <a href="#"><img class="mainproduct" src="images/maxresdefault.jpg"></a>
+                <div class="jblbox">
+                    <h1><a class="productname productname_a" href="#" >JBL Charge 3</a></h1>
+                    <h2 class="productcollor productcollor_a">RED</h2>
+                </div>
+                <div class="buybord">
+                    <a class="sgb" href="#">16 GB</a>
+                    <a class="buynow" href="#">BUY NOW</a>
+                </div>
+            </div>
+
+            <div class="main_item">
+                <a href="#"><img class="product" src="images/olloclip-iphone-x-1.jpg"></a>
+                <h1><a class="productname" href="#">Olloclip for Apple iPhone X</a></h1>
+                    <h2 class="productcollor">BlACK</h2>
+                    <h3 class="productprice">19.99</h3>
+            </div>
+            <div class="main_item">
+                <a href="#"><img class="product" src="images/eqa.jpg"></a>
+                <h1><a class="productname" href="#">Fitbit charge 2</a></h1>
+                <h2 class="productcollor">PURPLE</h2>
+                <h3 class="productprice">19.99</h3>
+            </div>
+            <div class="main_item">
+                <a href="#"><img class="product" src="images/watch38_svralm_whtrbr_34fr-print-lxfym.jpg"></a>
+                <h1><a class="productname" href="#">Apple watch sport 38mm</a></h1>
+                <h2 class="productcollor">WHITE</h2>
+                <h3 class="productprice">49.99</h3>
+            </div>
+            <div class="main_item">
+                <a href="#"><img class="product" src="images/soundlink_oe_1024x1024.png"></a>
+                <h1><a class="productname" href="#">Bose Soundlink Headphone</a></h1>
+                <h2 class="productcollor">WHITE</h2>
+                <h3 class="productprice">119.99</h3>
+            </div>
+            <div class="main_item">
+                <a href="#"><img class="product" src="images/sona.jpg"></a>
+                <h1><a class="productname" href="#">Sonos Play:1</a></h1>
+                <h2 class="productcollor">BlACK</h2>
+                <h3 class="productprice">99.99</h3>
+            </div>
+            <img class="main_item" src="images/nest%20white28.jpg">
+            </div>
+
+        </div>
+            <div class="numberOfpage">
+                <a class="first_half_number numberOfpage" href="#"></a>
+                    <div class="second_half_number numberOfpage">
+                        <div class="page">
+                            <a class="number" href="#">1</a>
+                            <a class="number" href="#">2</a>
+                            <a class="number" href="#">3</a>
+                            <a class="number" href="#">4</a>
+                            <a class="number" href="#">5</a>
+                            <a class="number" href="#">6</a>
+                            <a class="number" href="#">7</a>
+                            <a class="number" href="#">8</a>
+                        </div>
+                </div>
+                <a class="third_half_number numberOfpage" href="#"></a>
+            </div>
+    <div class="bestsellers">
+        <div class="headline">
+            <div class="tit"> BEST SELLERS</div>
+        </div>
+        <div class="clothesItem">
+            <div class="firstClose">
+                <a href="#"><img class="product_a" src="images/Neff-Daily-Fatigue-Green-Beanie-_272673-front.jpg"></a>
+                <h1><a class="productname" href="#">Beanie</a></h1>
+                <h2 class="productcollor">GREEN</h2>
+                <div class="productprice productprice_b">
+                    <div class="oldprice">£39.99</div>
+                    <div class="currentprice">£29.99</div>
+                </div>
+            </div>
+            <div class="secondClose">
+                <a href="#"><img class="product_a" src="images/shirt-1490420513-abd7b25b157f3450ce8c2a09ee51c36e.jpg"></a>
+                <h1><a class="productname" href="#">T-shirt With a Print</a></h1>
+                <h2 class="productcollor">WHITE</h2>
+                <div class="productprice productprice_b">
+                    <div class="oldprice">£29.99</div>
+                    <div class="currentprice">£19.99</div>
+                </div>
+            </div>
+            <div class="thirdClose">
+                <a href="#"><img class="product_a" src="images/69_151399.jpg"></a>
+                <h1><a class="productname" href="#">Pile lined Hoodie Jacket</a></h1>
+                <h2 class="productcollor">Dark blue</h2>
+                <div class="productprice productprice_b">
+                    <div class="oldprice">£49.99</div>
+                    <div class="currentprice">£39.99</div>
+                </div>
+            </div>
+            <div class="fourthClose">
+                <a href="#"><img class="product_a" src="images/1123060967_w0_h0_cid2425512_pid685645609-ab00ce4d.jpg"></a>
+                <h1><a class="productname" href="#">Trainers</a></h1>
+                <h2 class="productcollor">Black and White</h2>
+                <div class="productprice productprice_b">
+                    <div class="oldprice">£39.99</div>
+                    <div class="currentprice">£29.99</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="feedback">
+            <div class="title">What our customers Have to Say</div>
+            <div class="subtitle">Couple of Words About This Stories Section</div>
+            <div class="feedcolums">
+                    <div class="first_feed">
+                        <div class="userFeed">
+                            <div class="userOne"></div>
+                            <div class="userinformation">
+                                <div class="userName">Sophia Dee</div>
+                                <div class="occupation">UX expert</div>
+                             </div>
+                        </div>
+                        <div class="feed">This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon such abstruse matters.</div>
+                    </div>
+                    <div class="second_feed">
+                        <div class="userFeed">
+                            <div class="userTwo"></div>
+                            <div class="userinformation">
+                                <div class="userName">Misha Cross </div>
+                                <div class="occupation">Founder</div>
+                            </div>
+                        </div>
+                        <div class="feed">Looking cautiously round, to ascertain that they were not overheard, the two hags cowered nearer to the fire, and chuckled heartily.</div>
+                    </div>
+                    <div class="third_feed">
+                        <div class="userFeed">
+                            <div class="userThree"></div>
+                            <div class="userinformation">
+                                <div class="userName">Stoya Doll </div>
+                                <div class="occupation">Product Manager</div>
+                            </div>
+                        </div>
+                        <div class="feed">This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before! she said.</div>
+                    </div>
+            </div>
+    </div>
+<div class="flexfooter">
+    <div class="footer">
+        <div class="firstfoot" >
+            <img class="logoFoot" src="images/portlandmadelogo.png">
+            <div class="addInform">
+                <a class="item" href="#">Home</a>
+                <a class="item" href="#">Shop</a>
+                <a class="item" href="#">Team</a>
+                <a class="item" href="#">About us</a>
+                <a class="item" href="#">Contacts</a>
+            </div>
+            <div class="socialmedia">
+                <a href="#"><img class="facebookLogo" src="images/facebook-logo-png-white-i6.png"></a>
+                <a href="#"><img class="instaLogo" src="images/inst.png"></a>
+                <a href="#"><img class="googleLogo" src="images/logo-google-plus-white.png"></a>
+            </div>
+        </div>
+        <div class="secondfoot">
+            <div class="legend">She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on a Friday.</div>
+            <div class="privacy">
+                <a class="privButt" href="#">Privacy Policy</a>
+                <a class="privButt" href="#">Terms and condition</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+    </div>
+
+
+
+</div>
+
+</div>
+
+
+</body>
+</html>
